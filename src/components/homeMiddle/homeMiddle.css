@@ -1,0 +1,69 @@
+.frame-parent7 {
+  gap: var(--gap-xl);
+}
+
+.transactions-this-month-parent {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.pills-parent {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  font-size: var(--body-2-regular-size);
+  color: var(--black-100);
+  font-family: var(--body-1-medium);
+}
+.pills {
+  border-radius: var(--br-21xl);
+  background-color: var(--primary-blue);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-base);
+  gap: var(--gap-7xs);
+}
+.outlined-settings {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: none;
+}
+.today-0400pm {
+  font-weight: 500;
+}
+.payouts-btn {
+  padding: 6px 16px;
+  align-items: center;
+  gap: 6px;
+  border-radius: 40px;
+  background: var(--Primary-Blue, #146eb4);
+  border: none;
+  color: white;
+}
+.pills1 {
+  border-radius: var(--br-21xl);
+  background-color: var(--black-90);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-base);
+  gap: var(--gap-3xs);
+  color: var(--black-50);
+}
+
+.refund-btn {
+  display: flex;
+  padding: 6px 16px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 40px;
+  background: var(--Black-90, #e6e6e6);
+  border: none;
+}
